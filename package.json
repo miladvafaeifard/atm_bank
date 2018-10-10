@@ -1,0 +1,24 @@
+{
+  "name": "atm_bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miladvafaeifard/atm_bank.git"
+  },
+  "keywords": [],
+  "author": "Milad Vafaeifard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miladvafaeifard/atm_bank/issues"
+  },
+  "homepage": "https://github.com/miladvafaeifard/atm_bank#readme",
+  "devDependencies": {
+    "typescript": "^3.1.2"
+  }
+}
