@@ -77,7 +77,6 @@ export class HasPin implements ATMState {
   }
 
   public requestCash(cashToWithdraw: number): void {
-    console.log('You have not entered your PIN');
     if (cashToWithdraw > this.atmMachine.cashInMachine) {
       console.log("You don't have that much cash available");
       console.log('Your card is ejected');
